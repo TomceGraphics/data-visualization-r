@@ -1,0 +1,28 @@
+/* Add the "Tags:" label before the list */
+.md-tag-list::before {
+  content: "Tags: ";
+  font-weight: bold;
+  font-size: 0.7rem;
+  margin-right: 5px;
+  align-self: center;
+}
+
+/* Make the tags smaller and more compact */
+.md-tag {
+  font-size: 0.65rem !important;
+  /* Smaller text */
+  padding: 2px 8px !important;
+  /* Less bulky padding */
+  border-radius: 4px !important;
+  /* Optional: sharper corners */
+  margin-bottom: 5px !important;
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  /* Subtle background */
+}
+
+/* Ensure the list aligns nicely */
+.md-tag-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
