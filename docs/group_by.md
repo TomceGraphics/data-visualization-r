@@ -6,12 +6,14 @@ tags:
 ---
 # The `group_by()` Function in R (`dplyr`)
 
-The `group_by()` function takes an existing data frame and converts it into a grouped data frame where operations are performed "by group".
+!!! question "What does it do?"
+    The `group_by()` function takes an existing data frame and converts it into a grouped data frame where operations are performed **"by group."** It doesn't change the data itself, but it changes how other functions (like `summarize`) interact with it.
 
 ## Usage
+`group_by(data, column_to_group_by)`
 
-The syntax is:
-`group_by(data, column1, column2, ...)`
+!!! success "Power of Grouping"
+    Grouping is most powerful when followed by `summarize()` to calculate statistics (mean, sum, count) for each group.
 
 ### Example: Grouping by Major
 ```R

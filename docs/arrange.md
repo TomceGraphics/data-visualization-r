@@ -6,7 +6,15 @@ tags:
 ---
 # The `arrange()` Function in R (`dplyr`)
 
-The `arrange()` function is part of the `dplyr` package (contained within the `tidyverse`). It is used to reorder the rows of a data frame based on the values of selected columns.
+!!! tip "Purpose"
+    The `arrange()` function is used to **reorder rows** in a data frame based on the values of one or more columns. It is the equivalent of "sorting" in Excel.
+
+## Usage
+The basic syntax is:
+`arrange(data, column1, column2, ...)`
+
+### Basic Sorting
+By default, `arrange()` sorts in **ascending** order (smallest to largest / A to Z).
 
 ## What do I need to install?
 

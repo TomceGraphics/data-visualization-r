@@ -6,11 +6,10 @@ tags:
 ---
 # The `mutate()` Function in R (`dplyr`)
 
-The `mutate()` function is used to create new columns or transform existing ones while preserving the rest of the data frame.
+!!! abstract "Core Concept"
+    The `mutate()` function is your primary tool for **creating new columns** based on existing ones or transforming existing columns. It keeps your original data intact while adding the results of your calculations.
 
 ## Usage
-
-The syntax is:
 `mutate(data, new_column = calculation_or_transformation)`
 
 ### Example: Creating a Category

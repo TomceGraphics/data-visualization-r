@@ -5,9 +5,10 @@ tags:
   - r-programming-language
   - string-manipulation
 ---
-# String Manipulation in R: `grep`, `grepl`, `sub`, `gsub`, `trimws`, `nchar`, and `substr`
+# String Manipulation in R
 
-These Base R functions are essential for searching, replacing, and cleaning text within character vectors or column names.
+!!! note "Overview"
+    These Base R functions are essential for **searching, replacing, and cleaning text** within character vectors or column names. They form the foundation of text processing in data visualization.
 
 ## 1. Searching: `grep()` and `grepl()`
 
