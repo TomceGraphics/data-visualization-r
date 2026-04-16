@@ -1,5 +1,9 @@
+---
+hide:
+  - toc
+---
 # Tags
- This page displays all tags used across the documentation. Click on a tag to see all related pages.
+
+Explore the documentation by topics, tools, or sources. The list below is automatically populated based on the tags assigned to each guide.
 
 [comment]: # (The content below will be automatically populated by the mkdocs-material tags plugin)
-

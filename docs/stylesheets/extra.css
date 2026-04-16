@@ -24,5 +24,49 @@
 .md-tag-list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 1.5rem;
+}
+
+/* =========================================
+   Tags Index Page - Dashboard Cards
+   ========================================= */
+
+/* Style the tag headings */
+.md-typeset h2[id] {
+  margin-top: 2.5rem;
+  border-bottom: 2px solid var(--md-primary-fg-color);
+  padding-bottom: 0.5rem;
+}
+
+/* Style the lists of pages to look like cards */
+.md-typeset h2[id] + ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+/* Individual page links under a tag */
+.md-typeset h2[id] + ul li {
+  background: rgba(0, 0, 0, 0.03);
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  border-left: 4px solid var(--md-primary-fg-color);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+/* Hover effect for the cards */
+.md-typeset h2[id] + ul li:hover {
+  transform: translateX(5px);
+  background: rgba(0, 0, 0, 0.06);
+}
+
+/* Dark mode adjustments for cards */
+[data-md-color-scheme="slate"] .md-typeset h2[id] + ul li {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+[data-md-color-scheme="slate"] .md-typeset h2[id] + ul li:hover {
+  background: rgba(255, 255, 255, 0.1);
 }
