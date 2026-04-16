@@ -1,7 +1,8 @@
 ---
 tags:
   - string-manipulation
-  - transformation
+  - base-r
+  - lecture-8
 ---
 # Replacing Strings: `sub()` and `gsub()`
 

@@ -1,8 +1,8 @@
 ---
 tags:
   - string-manipulation
-  - text-processing
   - base-r
+  - lecture-8
 ---
 # String Manipulation Overview
 

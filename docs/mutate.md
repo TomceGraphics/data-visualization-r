@@ -1,8 +1,8 @@
 ---
 tags:
-  - data-visualization
-  - function
-  - r-programming-language
+  - transformation
+  - dplyr
+  - lecture-8
 ---
 # The `mutate()` Function in R (`dplyr`)
 

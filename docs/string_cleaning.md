@@ -1,7 +1,8 @@
 ---
 tags:
   - string-manipulation
-  - data-cleaning
+  - base-r
+  - lecture-8
 ---
 # Cleaning Strings: `trimws()`, `nchar()`, and `substr()`
 

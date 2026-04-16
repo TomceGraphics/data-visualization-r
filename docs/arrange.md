@@ -1,8 +1,8 @@
 ---
 tags:
-  - data-visualization
-  - function
-  - r-programming-language
+  - transformation
+  - dplyr
+  - lecture-8
 ---
 # The `arrange()` Function in R (`dplyr`)
 

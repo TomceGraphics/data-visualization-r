@@ -1,8 +1,9 @@
 ---
 tags:
-  - data-transformation
+  - transformation
   - dplyr
   - tidyverse
+  - lecture-8
 ---
 # Data Transformation Overview
 

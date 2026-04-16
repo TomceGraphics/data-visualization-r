@@ -1,8 +1,8 @@
 ---
 tags:
   - string-manipulation
-  - searching
-  - regex
+  - base-r
+  - lecture-8
 ---
 # Searching Strings: `grep()` and `grepl()`
 

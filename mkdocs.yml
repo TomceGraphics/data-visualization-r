@@ -48,6 +48,9 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.tabs.link
+    - navigation.indexes
+    - navigation.tags
 
 markdown_extensions:
   - admonition

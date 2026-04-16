@@ -36,4 +36,3 @@ cameras<-read.csv("data/cameras.csv")
 
 table(grepl("Alameda",cameras$intersection))
 
-cameraData2 <- 
