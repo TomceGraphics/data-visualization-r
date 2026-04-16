@@ -1,0 +1,49 @@
+site_name: DataViz-R Documentation
+site_description: A comprehensive guide to data visualization and manipulation in R.
+site_author: Data Visualization Course
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - tables
+
+nav:
+  - Home: index.md
+  - Data Transformation:
+      - Overview: index.md
+      - Arrange: arrange.md
+      - Group By: group_by.md
+      - Mutate: mutate.md
+      - Rename: rename.md
+  - String Manipulation: string_manipulation.md
