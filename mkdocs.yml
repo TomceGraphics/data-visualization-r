@@ -52,6 +52,10 @@ theme:
     - navigation.indexes
     - navigation.tags
 
+plugins:
+  - search
+  - tags
+
 markdown_extensions:
   - admonition
   - pymdownx.highlight:
