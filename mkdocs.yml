@@ -1,10 +1,10 @@
-site_name: DataViz-R Documentation
+site_name: Data Visualization in R Course
 site_description: A comprehensive guide to data visualization and manipulation in R.
 site_url: https://tomcegraphics.github.io/data-visualization-r/
 repo_name: TomceGraphics/data-visualization-r
 repo_url: https://github.com/TomceGraphics/data-visualization-r
 copyright: "Copyright &copy; 2026 TomceGraphics - Licensed under GPL-3.0"
-site_author: Data Visualization Course
+site_author: TomceGraphics
 
 theme:
   name: material
