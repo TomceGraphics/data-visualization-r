@@ -1,15 +1,28 @@
-# 1. Ignore EVERYTHING in the folder
-*
+# MkDocs output
+site/
 
-# 2. But DO NOT ignore these essential project files
-!*/
-!docs/
-!mkdocs.yml
-!README.md
-!LICENSE
-!.gitignore
-!.github/
-!lecture8/
+# R history and temporary files
+.Rhistory
+*.RData
+*.Ruserdata
+.Rproj.user/
 
-# 3. If you want to keep a specific script (like main.r), add it here:
-# !homework2.r
+# Python/Pip caches
+__pycache__/
+.cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# --- PRIVATE FOLDERS ---
+# Anything inside these folders will NEVER be uploaded to GitHub
+personal/
+scratch/
+private/
+
+# Specific private files (add others as needed)
+*.pdf
+my_table.html
+my_table_files/
+test.r
