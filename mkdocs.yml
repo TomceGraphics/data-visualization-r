@@ -8,8 +8,8 @@ site_author: Data Visualization Course
 
 theme:
   name: material
-  logo: assets/logo.png
-  favicon: assets/logo.png
+  logo: assets/logo-r-script.svg
+  favicon: assets/logo-r-script.svg
   icon:
     logo: material/chart-areaspline
     repo: fontawesome/brands/github
