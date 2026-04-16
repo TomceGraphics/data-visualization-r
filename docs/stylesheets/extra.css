@@ -1,7 +1,7 @@
 /* Add the "Tags:" label before the list */
 .md-tag-list::before {
   content: "Tags: ";
-  font-weight: bold;
+  font-weight: 400;
   font-size: 0.7rem;
   margin-right: 5px;
   align-self: center;
