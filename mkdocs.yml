@@ -1,5 +1,8 @@
 site_name: DataViz-R Documentation
 site_description: A comprehensive guide to data visualization and manipulation in R.
+site_url: https://tomcegraphics.github.io/data-visualization-r/
+repo_name: TomceGraphics/data-visualization-r
+repo_url: https://github.com/TomceGraphics/data-visualization-r
 copyright: "Copyright &copy; 2026 TomceGraphics - Licensed under GPL-3.0"
 site_author: Data Visualization Course
 
@@ -7,20 +10,36 @@ theme:
   name: material
   logo: assets/logo.png
   favicon: assets/logo.png
+  icon:
+    logo: material/chart-areaspline
+    repo: fontawesome/brands/github
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/light-bulb-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/brightness-7
+        icon: octicons/moon-16
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/brightness-4
+        icon: octicons/sun-16
         name: Switch to light mode
   features:
     - navigation.tabs

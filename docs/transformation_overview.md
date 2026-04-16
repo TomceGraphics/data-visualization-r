@@ -8,8 +8,19 @@ tags:
 
 Data transformation is the process of cleaning, reshaping, and preparing data for analysis. In R, this is primarily handled by the **`dplyr`** package, which provides a consistent "grammar" for data manipulation.
 
-!!! info "The Grammar of Data"
-    Just like a sentence has verbs, `dplyr` uses "verbs" to describe actions you perform on your data frames.
+## Installation & Setup
+To use these transformation functions, you need to install the **`dplyr`** package. Since `dplyr` is the core of data manipulation in R, many people install the entire **`tidyverse`** suite.
+
+To use them in your script, you must load the library:
+
+```R
+library(dplyr)
+# OR
+library(tidyverse)
+```
+
+!!! tip "Note"
+    The base R functions mentioned in other sections do not require any installation. Only the `dplyr` functions listed below require this setup.
 
 ## The Core Verbs
 Below are the primary tools you will use to transform your data:

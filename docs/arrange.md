@@ -16,18 +16,6 @@ The basic syntax is:
 ### Basic Sorting
 By default, `arrange()` sorts in **ascending** order (smallest to largest / A to Z).
 
-## What do I need to install?
-
-To use `arrange()`, you need to install the `dplyr` package. Since `dplyr` is the core of data manipulation in R, many people install the entire `tidyverse` suite.
-
-To use it in your script, you must load it:
-
-```R
-library(dplyr)
-# or
-library(tidyverse)
-```
-
 ## How to use `arrange()`
 
 The basic syntax is:
