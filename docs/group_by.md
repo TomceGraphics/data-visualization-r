@@ -4,7 +4,8 @@ tags:
   - dplyr
   - lecture-8
 ---
-# The `group_by()` Function in R (`dplyr`)
+# Grouping Data
+*`group_by()`*
 
 !!! question "What does it do?"
     The `group_by()` function takes an existing data frame and converts it into a grouped data frame where operations are performed **"by group."** It doesn't change the data itself, but it changes how other functions (like `summarize`) interact with it.

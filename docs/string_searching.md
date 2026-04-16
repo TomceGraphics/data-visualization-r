@@ -4,7 +4,8 @@ tags:
   - base-r
   - lecture-8
 ---
-# Searching Strings: `grep()` and `grepl()`
+# Searching Strings
+*`grep()` and `grepl()`*
 
 !!! tip "Recall"
     Use these functions when you need to find rows or elements that match a specific text pattern.

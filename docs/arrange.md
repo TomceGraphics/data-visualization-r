@@ -4,7 +4,8 @@ tags:
   - dplyr
   - lecture-8
 ---
-# The `arrange()` Function in R (`dplyr`)
+# Sorting Data
+*`arrange()`*
 
 !!! tip "Purpose"
     The `arrange()` function is used to **reorder rows** in a data frame based on the values of one or more columns. It is the equivalent of "sorting" in Excel.

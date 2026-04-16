@@ -4,7 +4,8 @@ tags:
   - base-r
   - lecture-8
 ---
-# Cleaning Strings: `trimws()`, `nchar()`, and `substr()`
+# Cleaning Strings
+*`trimws()`, `nchar()`, and `substr()`*
 
 !!! success "Final Polish"
     These functions are the "finishing touches" for text data, helping you trim whitespace, measure length, and extract parts of words.

@@ -4,7 +4,8 @@ tags:
   - base-r
   - lecture-8
 ---
-# Replacing Strings: `sub()` and `gsub()`
+# Replacing Strings
+*`sub()` and `gsub()`*
 
 !!! warning "The Difference"
     - `sub()` replaces only the **first** occurrence.

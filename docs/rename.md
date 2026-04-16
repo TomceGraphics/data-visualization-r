@@ -4,7 +4,8 @@ tags:
   - dplyr
   - lecture-8
 ---
-# The `rename()` Function in R (`dplyr`)
+# Renaming Columns
+*`rename()`*
 
 !!! info "Purpose"
     The `rename()` function is a specialized tool for **changing column names**. It is safer and more intuitive than base R methods because it follows a simple `new_name = old_name` pattern.
