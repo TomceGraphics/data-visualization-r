@@ -1,4 +1,4 @@
-# DataViz-R Documentation
+# Data Visualization in R course Documentation
 
 Welcome to the documentation for the data visualization course. This site is a live reference for R functions used in the course. Feel free to use this as a study reference, and contribute to it as well.
 
