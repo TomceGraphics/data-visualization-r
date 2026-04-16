@@ -1,14 +1,15 @@
-/arrange.md
-/group_by.md
-/HOMEWORK 1.pdf
-/HOMEWORK 2.pdf
-/homework2.r
-/index.md
-/lecture8
-/mutate.md
-/my_table.html
-/my_table_files
-/rename.md
-/scratch
-/string_manipulation.md
-/test.r
+# 1. Ignore EVERYTHING in the folder
+*
+
+# 2. But DO NOT ignore these essential project files
+!*/
+!docs/
+!mkdocs.yml
+!README.md
+!LICENSE
+!.gitignore
+!.github/
+!lecture8/
+
+# 3. If you want to keep a specific script (like main.r), add it here:
+# !homework2.r
