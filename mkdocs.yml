@@ -49,4 +49,6 @@ nav:
       - Rename: rename.md
   - String Manipulation:
       - Overview: string_overview.md
-      - Functions: string_manipulation.md
+      - Searching: string_searching.md
+      - Replacing: string_replacing.md
+      - Cleaning & Measuring: string_cleaning.md

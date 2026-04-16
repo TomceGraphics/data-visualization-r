@@ -12,9 +12,11 @@ String manipulation involves searching, editing, and cleaning text data. In R, w
     Text data is often the messiest part of any dataset—containing unwanted spaces, inconsistent capitalization, or special characters. These tools help you fix those issues.
 
 ## Primary Guides
-Currently, we have a comprehensive guide covering the most important base R text functions:
+We have broken down string manipulation into three focused categories:
 
-*   [**Core Text Functions**](string_manipulation.md): Learn about `grep`, `sub`, `gsub`, `trimws`, and more.
+*   [**Searching**](string_searching.md): Find patterns using `grep` and `grepl`.
+*   [**Replacing**](string_replacing.md): Edit text using `sub` and `gsub`.
+*   [**Cleaning & Measuring**](string_cleaning.md): Trim spaces and extract text with `trimws` and `substr`.
 
 ## Common Workflows
 1. **Cleaning**: Removing leading/trailing whitespace with `trimws()`.
