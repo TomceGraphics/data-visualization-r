@@ -1,5 +1,6 @@
 site_name: DataViz-R Documentation
 site_description: A comprehensive guide to data visualization and manipulation in R.
+copyright: "Copyright &copy; 2026 TomceGraphics - Licensed under GPL-3.0"
 site_author: Data Visualization Course
 
 theme:

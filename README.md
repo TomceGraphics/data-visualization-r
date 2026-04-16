@@ -1,31 +1,32 @@
-# 📊 DataViz-R: Mastering Data Visualization in R
+# DataViz-R: Data Visualization in R
 
-Welcome to the **DataViz-R** repository! This project is a curated collection of guides, scripts, and resources designed for the Data Visualization Course.
+**Live Documentation Site:** [https://tomcegraphics.github.io/data-visualization-r/](https://tomcegraphics.github.io/data-visualization-r/)
 
-## 🌟 Features
-- **Comprehensive Guides**: Detailed documentation on `dplyr` verbs and string manipulation.
-- **Tutorials**: Step-by-step examples of data transformation techniques.
-- **Reference Scripts**: Actual R code used in lectures and assignments.
+## About This Project
+This repository is a personal resource I am building and using while participating in my Data Visualization course. It serves as a central hub for my notes, scripts, and guides on R programming and data science.
 
-## 📚 Documentation Portal
-Our documentation is structured to help you master R data science workflows:
+I have chosen to make this an open learning source (Open Educational Resource) so that others can benefit from these materials, learn along with me, or contribute their own insights.
 
-### 🛠️ [Data Transformation (dplyr)](docs/index.md#data-transformation-dplyr)
-Learn the core "verbs" for manipulating data frames:
-- [**Mutate**](docs/mutate.md): Create or transform columns.
-- [**Arrange**](docs/arrange.md): Reorder rows efficiently.
-- [**Group By**](docs/group_by.md): Perform aggregate calculations.
-- [**Rename**](docs/rename.md): Clean up column names.
+## Documentation Portal
+The documentation is organized into key areas of data science:
 
-### 🔤 [String Manipulation](docs/string_manipulation.md)
-Advanced text processing using Base R functions like `grep`, `gsub`, and `substr`.
+### Data Transformation (dplyr)
+Learn the core functions for manipulating data frames:
+- [Mutate](docs/mutate.md): Create or transform columns.
+- [Arrange](docs/arrange.md): Reorder rows efficiently.
+- [Group By](docs/group_by.md): Perform aggregate calculations.
+- [Rename](docs/rename.md): Clean up column names.
 
----
-
-## 🚀 How to Use This Repo
-1. **Browse**: Use the links above to jump straight to a topic.
-2. **Experiment**: Open the `.r` scripts in the `lecture8/` folder to see the code in action.
-3. **Contribute**: Found a typo or want to add a guide? Feel free to open a Pull Request!
+### String Manipulation
+Text processing using Base R functions like grep, gsub, and substr.
 
 ---
-*Created for the Data Visualization Course. Facilitating better data storytelling through R.*
+
+## How to Use This Repo
+1. Browse: Use the link to the documentation site above for the best reading experience.
+2. Experiment: Open the .r scripts in the lecture folders to see the code in action.
+3. Contribute: This is an open project. If you find a typo or want to add a guide, feel free to open a pull request.
+
+---
+Created for the Data Visualization Course. Licensed under GPL-3.0 to ensure these resources remain open and free for everyone forever.
+
