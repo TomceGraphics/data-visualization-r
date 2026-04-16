@@ -13,10 +13,10 @@
   /* Smaller text */
   padding: 2px 8px !important;
   /* Less bulky padding */
-  border-radius: 4px !important;
-  /* Optional: sharper corners */
+  border-radius: 100px !important;
+
   margin-bottom: 5px !important;
-  background-color: rgba(0, 0, 0, 0.05) !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
   /* Subtle background */
 }
 
