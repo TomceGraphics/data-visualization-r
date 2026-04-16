@@ -8,10 +8,10 @@ site_author: Data Visualization Course
 
 theme:
   name: material
-  logo: octicons/r-16
-  favicon: octicons/r-16
+  logo: assets/logo.png
+  favicon: assets/logo.png
   icon:
-    logo: octicons/r-16
+    logo: material/chart-areaspline
     repo: fontawesome/brands/github
     admonition:
       note: octicons/tag-16
@@ -29,24 +29,21 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: teal
+      primary: indigo
+      accent: indigo
       toggle:
         icon: octicons/moon-16
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
-      accent: teal
+      primary: indigo
+      accent: indigo
       toggle:
         icon: octicons/sun-16
         name: Switch to light mode
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
-    - navigation.tracking
     - navigation.top
     - search.suggest
     - search.highlight
