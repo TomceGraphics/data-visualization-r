@@ -10,6 +10,17 @@ tags:
 !!! tip "The Lattice Philosophy"
     Lattice is designed for "Trellis" graphics—creating many small plots (panels) conditioned on one or more variables. It uses a **formula-based interface** (`y ~ x | g`) that is very powerful for scientific data.
 
+## What are Trellis Graphics?
+Trellis graphics is a framework for data visualization designed to display multivariate data by partitioning it into multiple panels.
+
+### Key Concepts
+*   **Conditioning**: Partitioning a relationship (e.g., `Weight ~ Height`) into separate panels based on the values of another variable (e.g., `| Gender`).
+*   **Small Multiples**: Instead of overcrowding a single plot, data is broken into a grid of clear, separate panels.
+*   **The "Strip"**: The label bar at the top of each panel that identifies the data subset.
+*   **Visual Consistency**: Every panel uses the same axes and scales by default, allowing for immediate visual comparison across groups.
+
+---
+
 ## Formula Interface
 The core of every Lattice plot is the formula:
 `response ~ predictor | conditional_variable`
