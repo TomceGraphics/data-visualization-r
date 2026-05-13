@@ -26,7 +26,13 @@ Welcome to the documentation for the data visualization course. This site is a l
     *   [Conditional Graphics](lattice_overview.md)
         *   [Lattice Overview](lattice_overview.md) | [Panel Customization](lattice_panels.md)
 
+!!! info "[**Advanced Visualization Concepts**](lattice_vs_ggplot2.md)"
+    Understand the different plotting paradigms in R and learn to create complex visualizations like heatmaps.
+    
+    *   [Plot Comparisons](lattice_vs_ggplot2.md)
+        *   [Lattice vs. ggplot2](lattice_vs_ggplot2.md) | [Heatmaps](heatmaps.md)
+
 ---
-*Updated with content from Lecture 11 (Themes) and Lecture 12 (Lattice).*
+*Updated with content from Lecture 11 (Themes), Lecture 12 (Lattice), and Advanced Concepts.*
 
 
